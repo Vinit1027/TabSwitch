@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+
+
+.padbetween {
+    padding: 100px 0px;
+    background: #f8faff;
+}
+
+
+/* .container{
+    margin: 0px auto;
+} */
+
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+
+.subheading {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.rest {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #404044;
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+.switches {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.restbttn {
+    padding: 24px 32px;
+    border: 1px solid transparent;
+    color: #a5a5ab;
+    background: white;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0px 4px 18px -12px rgb(0 0 0 / 75%);
+    margin: 0px 4px;
+}
+
+
+.disnone {
+    display: none;
+}
+
+.visi {
+    display: block;
+}
+
+
+.sects {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.rectdes {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    height: 120px;
+    width: 550px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    margin: 0px 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 1px 18px -12px rgb(0 0 0 / 75%);
+}
+
+
+
+.img1 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-3.jpg.pagespeed.ic._eupGZGDhZ.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.h3p {
+    /* margin-right: 140px ; */
+    width: calc(100% - 80px);
+}
+
+
+.h3p h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #404044;
+    font-weight: 400;
+    font-family: "Playfair Display", Georgia, serif;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+.price {
+    font-size: 20px;
+    color: #404044;
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+
+
+
+.img2 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-8.jpg.pagespeed.ic.X1UarM12S1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img3 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-4.jpg.pagespeed.ic.QNS0cGseKC.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.img4 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-9.jpg.pagespeed.ic.RMbgqdIacd.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.img5 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-5.jpg.pagespeed.ic.h2NHjzs2rt.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.img6 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-10.jpg.pagespeed.ic.AjEzQKSqtq.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img7 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-6.jpg.pagespeed.ic.LHa9ujD1jc.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.img8 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-11.jpg.pagespeed.ic.SSID_aLKfC.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img9 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-7.jpg.pagespeed.ic.QKJ9esJPYg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.img10 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdish-8.jpg.pagespeed.ic.X1UarM12S1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img11 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-1.jpg.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img12 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-2.jpeg.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img13 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-3.jpg.pagespeed.ic.QA267i3edb.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.img14 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-4.jpg.pagespeed.ic.ExoXl1Yy0j.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img15 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-5.jpg.pagespeed.ic.yC-EI1C2Sl.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img16 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-6.jpg.pagespeed.ic.xuS6fI649R.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img17 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-7.jpg.pagespeed.ic.uGV1uE0TVM.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img18 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-8.jpg.pagespeed.ic.nzJWrF6g2R.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img19 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-9.jpg.pagespeed.ic.b75RlkqLs7.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.img20 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdessert-10.jpg.pagespeed.ic.q2XtdIPwdq.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img21 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-1.jpg.pagespeed.ic.RCrXYE6lI1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img22 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-2.jpg.pagespeed.ic.SpvM1G0DSa.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.img23 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-3.jpg.pagespeed.ic.gVXfnHFXF_.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.img24 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-4.jpg.pagespeed.ic.3viOU5YJzH.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img25 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-5.jpg.pagespeed.ic.ZiCZ5rrjr4.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img26 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-6.jpg.pagespeed.ic.u6RPJcbH6h.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img27 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-7.jpg.pagespeed.ic.FxQPy3duGU.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img28 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-8.jpg.pagespeed.ic.E5AmxrGlDY.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img29 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-9.jpg.pagespeed.ic.qnCVD_wbaQ.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img30 {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url('./Rest_Images/xdrink-10.jpg.pagespeed.ic.0RAnNKt8zC.webp');
+    background-size: cover;
+    background-position: center;
+}
